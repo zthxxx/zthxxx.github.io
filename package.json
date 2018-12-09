@@ -1,0 +1,69 @@
+{
+  "name": "zthxxx-blog",
+  "version": "0.2.0",
+  "private": true,
+  "description": "blog by zthxxx",
+  "scripts": {
+    "dev": "vuepress dev source --temp .temp",
+    "build": "vuepress build source --temp .temp",
+    "view-info": "vuepress view-info source --temp .temp",
+    "lint": "eslint --ext .js,.vue source",
+    "lint:fix": "eslint --fix --ext .js,.vue source",
+    "lint-staged": "lint-staged",
+    "lint-staged:js": "eslint --ext .js,.vue",
+    "commit": "npx git-cz",
+    "prettier": "prettier --write './source/.vuepress/**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zthxxx/zthxxx.github.io.git"
+  },
+  "keywords": [
+    "vue",
+    "vuepress",
+    "blog"
+  ],
+  "author": "zthxxx",
+  "license": "MIT",
+  "homepage": "https://blog.zthxxx.me",
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.46",
+    "@vuepress/plugin-blog": "^1.0.0-alpha.46",
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.46",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.46",
+    "@vuepress/plugin-pagination": "^1.0.0-alpha.46",
+    "@vuepress/plugin-search": "^1.0.0-alpha.46",
+    "@vuepress/theme-default": "^1.0.0-alpha.46",
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "vuepress": "^1.0.0-alpha.46"
+  },
+  "lint-staged": {
+    "**/*.{js,vue}": "npm run lint-staged:js"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "browserslist": [
+    "Chrome >= 70",
+    "Firefox >= 66",
+    "Safari >= 12"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

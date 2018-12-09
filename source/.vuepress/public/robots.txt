@@ -1,0 +1,13 @@
+User-agent: *
+
+Allow: /
+Allow: /posts/
+Allow: /tags/
+Allow: /archives/
+Allow: /categories/
+Allow: /about/
+
+Disallow: /content.json
+Disallow: /404.html
+
+Sitemap: http://blog.zthxxx.me/sitemap.xml
