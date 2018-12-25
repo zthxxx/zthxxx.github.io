@@ -1,0 +1,24 @@
+{
+    "name": "vuepress-theme-cherry",
+    "version": "0.0.1",
+    "description": "Inspired by honkai 3rd Molotov Cherry",
+    "main": "index.js",
+    "publishConfig": {
+      "access": "public"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:zthxxx/zthxxx.github.io.git"
+    },
+    "keywords": [
+      "vue",
+      "vuepress",
+      "blog"
+    ],
+    "author": "zthxxx",
+    "license": "MIT",
+    "homepage": "https://blog.zthxxx.me",
+    "dependencies": {
+      "@vuepress/theme-default": "^1.0.0-alpha.47"
+    }
+  }

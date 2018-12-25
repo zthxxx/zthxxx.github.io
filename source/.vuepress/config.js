@@ -1,9 +1,11 @@
 module.exports = {
+  title: 'zthxxx',
+  description: 'zthxxx\'s blog',
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
-  theme: '@vuepress/default',
+  theme: 'cherry',
   themeConfig: {
     docsRepo: 'zthxxx/zthxxx.github.io',
     docsDir: 'source',
@@ -27,38 +29,14 @@ module.exports = {
       },
       {
         text: '归档',
-        link: '/post/',
+        link: '/archive/',
       },
     ],
-    sidebar: [
-      ['/', '首页'],
-      ['/category/', '分类'],
-      ['/tag/', '标签'],
-      ['/post/', '归档'],
-    ],
+    sidebar: 'auto',
+  },
+  markdown: {
+    lineNumbers: true,
   },
   plugins: [
-    ['@vuepress/blog', {
-      permalink: '/post/:slug',
-    }],
-    '@vuepress/pagination',
-    ['@vuepress/search', {
-      searchMaxSuggestions: 10,
-    }],
-    ['@vuepress/back-to-top', true],
-    ['@vuepress/medium-zoom', true],
-    ['@vuepress/google-analytics', {
-      ga: ''
-    }],
-    ['container', {
-      type: 'vue',
-      before: '<pre class="vue-container"><code>',
-      after: '</code></pre>',
-    }],
-    ['container', {
-      type: 'upgrade',
-      before: info => `<UpgradePath title="${info}">`,
-      after: '</UpgradePath>',
-    }],
   ],
 }
