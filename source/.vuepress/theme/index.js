@@ -3,7 +3,7 @@ module.exports = {
 
   plugins: [
     ['@vuepress/blog', {
-      permalink: '/post/:slug',
+      permalink: '/posts/:slug',
     }],
     '@vuepress/pagination',
     ['@vuepress/search', {
@@ -19,10 +19,6 @@ module.exports = {
       before: '<pre class="vue-container"><code>',
       after: '</code></pre>',
     }],
-    ['container', {
-      type: 'upgrade',
-      before: info => `<UpgradePath title="${info}">`,
-      after: '</UpgradePath>',
-    }],
+    [require('./plugins/plugin-archive.js'), {}],
   ],
 }

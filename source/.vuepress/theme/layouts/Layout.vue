@@ -26,8 +26,5 @@ export default {
   components: {
     ParentLayout,
   },
-  mounted() {
-    console.log('page meta', this.$page)
-  }
 }
 </script>

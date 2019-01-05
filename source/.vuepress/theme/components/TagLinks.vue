@@ -7,7 +7,7 @@
       :key="tag"
       :to="{ path: `/tag/#${tag}` }"
     >
-      {{tag}}
+      {{ tag }}
     </router-link>
   </div>
 </template>

@@ -1,18 +1,21 @@
 <template lang="html">
   <div class="content">
     <h1>Tags</h1>
-    <span v-for="tag of $tags.list">
+    <span v-for="tag of $tags.list" :key="tag.name">
       <h3 :id="tag.name">
         <router-link
           :to="{ path: `/tags/#${tag.name}` }"
           class="header-anchor"
-          aria-hidden="true">#</router-link>
-        {{tag.name}}
+          aria-hidden="true"
+        >
+          #
+        </router-link>
+        {{ tag.name }}
       </h3>
       <ul>
-        <li v-for="page of tag.posts">
-          <router-link
-            :to="{ path: page.path }">{{page.title}}
+        <li v-for="page of tag.posts" :key="page.key">
+          <router-link :to="{ path: page.path }">
+            {{ page.title }}
           </router-link>
         </li>
       </ul>

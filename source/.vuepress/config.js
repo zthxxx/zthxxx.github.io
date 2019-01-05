@@ -20,16 +20,16 @@ module.exports = {
         link: '/',
       },
       {
-        text: '分类',
-        link: '/category/',
+        text: '归档',
+        link: '/posts/',
       },
       {
         text: '标签',
         link: '/tag/',
       },
       {
-        text: '归档',
-        link: '/archive/',
+        text: '关于',
+        link: '/about/',
       },
     ],
     sidebar: 'auto',
