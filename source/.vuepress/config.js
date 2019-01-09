@@ -38,5 +38,8 @@ module.exports = {
     lineNumbers: true,
   },
   plugins: [
+    ['@vuepress/google-analytics', {
+      ga: ''
+    }],
   ],
 }

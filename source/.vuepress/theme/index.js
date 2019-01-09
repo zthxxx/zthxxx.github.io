@@ -11,9 +11,6 @@ module.exports = {
     }],
     ['@vuepress/back-to-top', true],
     ['@vuepress/medium-zoom', true],
-    ['@vuepress/google-analytics', {
-      ga: ''
-    }],
     ['container', {
       type: 'vue',
       before: '<pre class="vue-container"><code>',

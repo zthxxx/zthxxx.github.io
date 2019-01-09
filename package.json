@@ -29,20 +29,15 @@
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.46",
-    "@vuepress/plugin-blog": "^1.0.0-alpha.46",
-    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.46",
-    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.46",
-    "@vuepress/plugin-pagination": "^1.0.0-alpha.46",
-    "@vuepress/plugin-search": "^1.0.0-alpha.46",
-    "@vuepress/theme-default": "^1.0.0-alpha.46",
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.47",
+    "@vuepress/theme-default": "^1.0.0-alpha.47",
     "commitizen": "^3.0.7",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.2.2",
     "husky": "^1.3.1",
     "lint-staged": "^8.1.5",
-    "vuepress": "^1.0.0-alpha.46"
+    "vuepress": "^1.0.0-alpha.47"
   },
   "lint-staged": {
     "**/*.{js,vue}": "npm run lint-staged:js"

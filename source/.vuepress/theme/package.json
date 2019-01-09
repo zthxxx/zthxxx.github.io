@@ -1,24 +1,30 @@
 {
-    "name": "vuepress-theme-cherry",
-    "version": "0.0.1",
-    "description": "Inspired by honkai 3rd Molotov Cherry",
-    "main": "index.js",
-    "publishConfig": {
-      "access": "public"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:zthxxx/zthxxx.github.io.git"
-    },
-    "keywords": [
-      "vue",
-      "vuepress",
-      "blog"
-    ],
-    "author": "zthxxx",
-    "license": "MIT",
-    "homepage": "https://blog.zthxxx.me",
-    "dependencies": {
-      "@vuepress/theme-default": "^1.0.0-alpha.47"
-    }
+  "name": "vuepress-theme-cherry",
+  "version": "0.0.1",
+  "description": "Inspired by honkai 3rd Molotov Cherry",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zthxxx/zthxxx.github.io.git"
+  },
+  "keywords": [
+    "vue",
+    "vuepress",
+    "blog"
+  ],
+  "author": "zthxxx",
+  "license": "MIT",
+  "homepage": "https://blog.zthxxx.me",
+  "dependencies": {
+    "@commitlint/config-conventional": "^7.5.0",
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.47",
+    "@vuepress/plugin-blog": "^1.0.0-alpha.47",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.47",
+    "@vuepress/plugin-pagination": "^1.0.0-alpha.47",
+    "@vuepress/plugin-search": "^1.0.0-alpha.47",
+    "@vuepress/theme-default": "^1.0.0-alpha.47"
   }
+}
