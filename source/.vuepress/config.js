@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'zthxxx',
-  description: 'zthxxx\'s blog',
+  title: '猫尾 と 香辛料 🐾',
+  description: '樱桃炸弹・蓝莓特攻',
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -39,7 +39,7 @@ module.exports = {
   },
   plugins: [
     ['@vuepress/google-analytics', {
-      ga: ''
+      ga: 'UA-109153977-1'
     }],
   ],
 }
