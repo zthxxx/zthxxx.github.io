@@ -32,7 +32,7 @@ module.exports = {
         link: '/about/',
       },
     ],
-    sidebar: 'auto',
+    sidebar: false,
   },
   markdown: {
     lineNumbers: true,

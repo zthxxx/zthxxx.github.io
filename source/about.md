@@ -1,10 +1,8 @@
 ---
-title: About
+title: About me
 sidebar: false
 permalink: '/about/'
 ---
-
-## About me
 
 ```js
 export default {

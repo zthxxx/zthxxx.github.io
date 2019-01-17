@@ -2,7 +2,12 @@
 <template>
   <ParentPage :sidebarItems="sidebarItems">
     <slot name="top" slot="top">
-      <TagLinks class="tag-links"/>
+      <div class="content head" slot="top">
+        <h1 v-if="$page.frontmatter.title" :id="$page.frontmatter.title">
+          {{ $page.frontmatter.title }}
+        </h1>
+        <TagLinks class="tag-links"/>
+      </div>
     </slot>
 
     <slot name="bottom" slot="bottom"/>
@@ -29,9 +34,11 @@ export default {
 </script>
 
 <style lang="stylus">
+  .content:not(.custom).head
+    margin-bottom: -1rem;
+    padding-bottom: 0
+
   .tag-links
     position: relative
-    top: 60px
     margin: 20px auto 0
-    max-width: 740px
 </style>

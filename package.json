@@ -5,7 +5,7 @@
   "description": "blog by zthxxx",
   "scripts": {
     "dev": "vuepress dev source --temp .temp",
-    "build": "vuepress build source --temp .temp",
+    "build": "vuepress build source --temp .temp --dest dist",
     "view-info": "vuepress view-info source --temp .temp",
     "lint": "eslint --ext .js,.vue source",
     "lint:fix": "eslint --fix --ext .js,.vue source",
