@@ -13,7 +13,7 @@
         {{ tag.name }}
       </h3>
       <ul>
-        <li v-for="page of tag.posts" :key="page.key">
+        <li v-for="page of tag.posts.filter(({ type }) => type === 'post').sort((a, b) => a.frontmatter.date < b.frontmatter.date ? 1 : -1)" :key="page.key">
           <router-link :to="{ path: page.path }">
             {{ page.title }}
           </router-link>
