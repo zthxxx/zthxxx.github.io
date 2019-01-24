@@ -8,6 +8,9 @@ categories:
 - 学习规划
 ---
 
+一图总结：
+
+![思维整理](./2016-10-20--WNCG-Software-Group-First-Training-Syllabus/WNCG-First-Training-Syllabus-Xmind.png)
 
 1.  **培训与总结安排**
      每周有总结，总结上周内容，答疑，安排下周学什么
@@ -80,9 +83,3 @@ categories:
     * 《大话数据结构》
     * 《操作系统原理》
 
-
-
-
-以下将本次培训内容整理成思维导图了，点击可查看大图
-
-![思维整理](./2016-10-20--WNCG-Software-Group-First-Training-Syllabus/WNCG-First-Training-Syllabus-Xmind.png)
