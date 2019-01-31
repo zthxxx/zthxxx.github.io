@@ -5,6 +5,7 @@
       <li
         v-for="post of $site.pages.filter(({ type }) => type === 'post').sort((a, b) => a.frontmatter.date < b.frontmatter.date ? 1 : -1)"
         :key="post.key"
+        style="margin: 16px 0; font-size: 1.2rem;"
       >
         <router-link :to="{ path: post.path }">
           {{ post.title }}
