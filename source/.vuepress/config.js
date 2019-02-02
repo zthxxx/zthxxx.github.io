@@ -36,6 +36,13 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true,
+    plugins: [
+      'abbr',
+      'footnote',
+      'ins',
+      'sub',
+      'sup',
+    ],
   },
   plugins: [
     ['@vuepress/google-analytics', {
