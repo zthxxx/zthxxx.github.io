@@ -10,6 +10,7 @@ categories:
   - Hexo
 ---
 
+![banner](./2017-02-21--Personal-Wiki-System-Theme-for-Hexo/wiki-banner.jpg)
 
 
 以下多图预警！
