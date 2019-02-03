@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="content">
     <h1>Tags</h1>
-    <span v-for="tag of $tags.list" :key="tag.name">
+    <span v-for="tag of $tags.list.sort((a, b) => a.name > b.name ? 1 : -1)" :key="tag.name">
       <h3 :id="tag.name">
         <router-link
           :to="{ path: `/tags/#${tag.name}` }"
