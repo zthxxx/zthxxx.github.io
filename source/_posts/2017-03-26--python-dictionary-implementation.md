@@ -1,5 +1,6 @@
 ---
 title: "[译] 深入理解 Python 字典实现过程"
+sidebar: auto
 date: 2017-03-26 15:37:06
 update: 2017-04-17 12:34:56
 banner:

@@ -1,5 +1,6 @@
 ---
 title: Git subtree 管理子项目包使用小结
+sidebar: auto
 date: 2016-11-02 17:59:24
 banner:
 tags:
@@ -10,7 +11,7 @@ categories:
 ---
 
 
-### 场景描述
+## 场景描述
 
 我们在用 git 管理的一个工程中，或多或少会在我们自己的项目中 **引入一些别人写的包或者模块**。
 
@@ -26,7 +27,7 @@ categories:
 
 
 
-### 推荐阅读
+## 推荐阅读
 
 这里先给出我当时学习的几篇相关的博文：
 
@@ -40,7 +41,7 @@ categories:
 
 
 
-### 实际问题
+## 实际问题
 
 最近使用 hexo 搭建了我的[个人博客](blog.zthxxx.me)，其中 hexo 工程是 clone 的 hexo github 仓库的，主题是 pull 的 [icarus 仓库](https://github.com/ppoffice/hexo-theme-icarus) 的 [修改版](https://github.com/zthxxx/hexo-theme-icarus)。所以主题就是一个放在 hexo 工程目录里的 git 子项目。由于在搭建博客的过程中，我需要按照我想要的样式不断的修改主题，所以要求主题的子项目要能快速更新仓库，方便推送和拉取远程仓库，要能将主项目的版本与子项目版本对应，如 clone 主项目，应能同时自动 clone 子项目下来，如 reset 主项目，要能自动同时 reset 子项目到主项目版本所对应的子项目版本。
 
@@ -55,7 +56,7 @@ categories:
 
 
 
-### Subtree 的使用
+## Subtree 的使用
 
 subtree 涉及的命令就只有添加项目地址、push、pull，并不能查看子项目 branch commit log diff 等等。
 
@@ -180,7 +181,7 @@ blog/themes/icarus/
 
 
 
-### subtree 与 submodule 基本比较说明
+## subtree 与 submodule 基本比较说明
 
 从实际使用中的一些问题谈起，网上这两者的对比说明已经够多了，我这里列的都不完整，只是遇到的一些。
 

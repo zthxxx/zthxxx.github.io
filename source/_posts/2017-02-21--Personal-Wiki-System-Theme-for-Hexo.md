@@ -1,5 +1,6 @@
 ---
 title: Hexo 的个人 Wiki 主题 - Wikitten
+sidebar: auto
 date: 2017-02-21 21:35:06
 updated: 2017-03-20 13:07:06
 banner: /images/cover-banner/Wiki.jpg
