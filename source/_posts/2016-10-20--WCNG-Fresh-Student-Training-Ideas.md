@@ -1,10 +1,9 @@
 ---
 title: WCNG 新生软件培训思路
 date: 2016-10-20 00:15:23
-tags: [WNCG, 学习规划]
+tags: [培训规划]
 categories: 
-- WNCG
-- 学习规划
+- 培训规划
 ---
 
 

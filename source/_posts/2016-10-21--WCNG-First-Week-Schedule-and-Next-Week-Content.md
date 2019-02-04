@@ -1,10 +1,9 @@
 ---
 title: WNCG 软件组第一周培训后任务
 date: 2016-10-20 02:15:23
-tags: [WNCG, 学习规划]
+tags: [培训规划]
 categories: 
-- WNCG
-- 学习规划
+- 培训规划
 ---
 
 

@@ -2,10 +2,9 @@
 title: WNCG 软件组第三次培训大纲
 date: 2016-11-02 22:50:43
 banner:
-tags: [WNCG, 学习规划]
+tags: [培训规划]
 categories: 
-- WNCG
-- 学习规划
+- 培训规划
 ---
 
 
