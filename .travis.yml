@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+  - 10
+dist: trusty
+
+branches:
+  only:
+  - writing
+
+install:
+  - npm i
+
+script:
+  - npm run build
+
+deploy:
+  provider: pages
+  local_dir: dist
+  skip_cleanup: true
+  keep_history: true
+  github_token: ${GIT_REPO_TOKEN}
+  target_branch: master
+  on:
+    branch: writing
+
+notifications:
+  email: true
