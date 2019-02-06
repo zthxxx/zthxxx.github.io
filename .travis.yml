@@ -9,6 +9,7 @@ branches:
 
 install:
   - npm i
+  - npm i --no-save source/.vuepress/theme
 
 script:
   - npm run build
