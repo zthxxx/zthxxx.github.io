@@ -24,6 +24,7 @@
     "@vuepress/plugin-blog": "^1.0.0-alpha.47",
     "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.47",
     "@vuepress/plugin-pagination": "^1.0.0-alpha.47",
-    "@vuepress/theme-default": "^1.0.0-alpha.47"
+    "@vuepress/theme-default": "^1.0.0-alpha.47",
+    "vuepress-plugin-sitemap": "^2.1.2"
   }
 }
