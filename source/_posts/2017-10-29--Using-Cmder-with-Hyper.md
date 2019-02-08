@@ -14,7 +14,7 @@ update: 2017-10-29 17:30:27
 
 > - 原文地址：[Using Cmder with Hyper](http://blog.bsinky.com/programming/tools/2017/06/11/using-cmder-with-hyper.html)
 > - 原文作者：[Benjamin Sinkula](https://github.com/bsinky)
-> - 译文出自：[zthxxx's blog](https://blog.zthxxx.me/posts/Using-Cmder-with-Hyper/)
+> - 译文出自：[zthxxx's blog](https://blog.zthxxx.me/post/using-cmder-with-hyper/)
 > - 译者：[zthxxx](https://github.com/zthxxx)
 > - 注：本译文基于 **CC BY-NC-ND 4.0** 发布
 
@@ -78,7 +78,7 @@ Hyper 2.0 及以上版本已经修复了[中文显示的问题](https://github.c
 
 [^2]: 你的 `.hyper.js` 配置可能本来就没有 `--login` 参数在 `shellArgs` 的值中，我觉得它是默认的参数，所以把它留下来了。我不确定 `--login` 在 `cmd` 和 `powershell` 中代表什么含义……
 
-[^3]: 
+[^3]:
     直接找到 `init.bat` 的位置，而不再使用相对路径 `%ConEmuDir%\..\init.bat`，
 
     把整个 `init.bat` 的绝对路径作为一个环境变量，使用单引号包裹双引号的形式，

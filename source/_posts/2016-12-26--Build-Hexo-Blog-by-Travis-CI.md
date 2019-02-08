@@ -10,7 +10,7 @@ categories:
   - Hexo
 ---
 
-额，本篇文章是[这篇博文](/posts/hexo-build-static-blog-process/)的后续，当时本来打算写完上篇就挨着写的，结果嘛。。。跳票了一个多月~~今天还是捡回来重新把他写完。
+额，本篇文章是[这篇博文](/post/hexo-build-static-blog-process/)的后续，当时本来打算写完上篇就挨着写的，结果嘛。。。跳票了一个多月~~今天还是捡回来重新把他写完。
 
 上次讲了第一步是用 Hexo 生成静态博客，第二步是部署到 GiHub Pages；但是有觉得部署 GitHub Pages 比较简单，感觉过程能讲地方的不是很多，于是这次再加一点内容，加上 Travis-CI 做持续集成。
 
@@ -42,7 +42,7 @@ GitHub 提供 [GitHub Pages](https://pages.github.com/) **静态站点托管服�
 
 一切都很简单，就跟我们平时新建仓库、push 文件、打开浏览器的操作没什么两样，于是我也没什么兴趣再去截几张操作步骤的图来放在这里，实在不知道怎么操作的，可以看 [这里](https://xuanwo.org/2015/03/26/hexo-intor/#section-2) 或者 [这里](https://zhuanlan.zhihu.com/p/22191919) 讲的步骤。
 
-如果你的 Hexo 博客照 [我上次所讲的配置](http://blog.zthxxx.me/posts/Hexo-Build-Static-Blog-Process/#部署-配置部分) 一样配好了的话，使用 `hexo deploy` 命令，Hexo 会通过 Git 自动部署到配置的指定仓库分支了，Hexo 博客源码本身我们一般就手动 push 放到另一个分支中，比如 `blog-source` `writing` `dev` 之类的，表示用来写作的都行。
+如果你的 Hexo 博客照 [我上次所讲的配置](http://blog.zthxxx.me/post/hexo-build-static-blog-process/#部署-配置部分) 一样配好了的话，使用 `hexo deploy` 命令，Hexo 会通过 Git 自动部署到配置的指定仓库分支了，Hexo 博客源码本身我们一般就手动 push 放到另一个分支中，比如 `blog-source` `writing` `dev` 之类的，表示用来写作的都行。
 
 **好了，下面讲的所有步骤都只是为了能不用敲 `hexo deploy` 命令这一个目的，不用看了。**
 

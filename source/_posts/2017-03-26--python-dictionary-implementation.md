@@ -10,7 +10,7 @@ categories: [程序语言, Python]
 
 > - 原文地址：[Python dictionary, the implementation](https://fengsp.github.io/blog/2017/3/python-dictionary/)
 > - 原文作者：[Shipeng Feng](https://twitter.com/_fengsp)
-> - 译文出自：[zthxxx's blog](https://blog.zthxxx.me/posts/python-dictionary-implementation/)
+> - 译文出自：[zthxxx's blog](https://blog.zthxxx.me/post/python-dictionary-implementation/)
 > - 译者：[zthxxx](https://github.com/zthxxx)
 > - 校对者：[Zheaoli](https://github.com/Zheaoli)
 > - 注：原文与本译文均基于 **CC BY-NC-SA** 发布

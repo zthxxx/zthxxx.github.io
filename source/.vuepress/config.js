@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: 'cherry',
   themeConfig: {
+    hostname: 'https://blog.zthxxx.me',
     docsRepo: 'zthxxx/zthxxx.github.io',
     docsDir: 'source',
     docsBranch: 'master',
@@ -21,7 +22,7 @@ module.exports = {
       },
       {
         text: '归档',
-        link: '/posts/',
+        link: '/post/',
       },
       {
         text: '标签',
