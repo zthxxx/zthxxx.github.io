@@ -6,27 +6,58 @@ tagline: 猫尾 ・ 香辛料
 footer: CC BY-NC-ND 4.0 | Copyright © 2016-present zthxxx
 ---
 
-> 「别怕，有咱在。」 赫萝扬起一边的嘴角，露出尖牙，那是值得倚赖的无敌笑容 。
->
-> 「嗯」所以罗伦斯简短地回答，因为他知道信赖与简短的话语是成正比的。
->
->  如果双方的关系够亲近，根本不需要冗长的合约书，只需要互相握个手就行了。
->
->  ———— 《狼与香辛料》
+<br />
 
-## About me
+## Declaration of [No Code](https://github.com/kelseyhightower/nocode)
 
-```js
-export default {
-  data() {
-    return {
-      author: 'zthxxx',
-      position: [
-        'Cleaner of Deck',
-        'Power with Love',
-        'Front-End Engineering'
-      ]
-    }
-  }
-}
+No code is the best way to write secure and reliable applications. Write nothing; deploy nowhere.
+
+## Getting Started
+
+Start by not writing any code.
+
 ```
+
+```
+
+This is just an example application, but imagine it doing anything you want. Adding new features is easy too:
+
+```
+
+```
+
+The possibilities are endless.
+
+### Building the Application
+
+Now that you have not done anything it's time to build your application:
+
+```
+
+```
+
+Yep. That's it. 🎉🎉🎉 You should see the following output:
+
+```
+
+```
+
+### Deploying
+
+While you still have not done anything it's time to deploy your application. By running the following command you can deploy your application absolutely nowhere.
+
+```
+
+```
+
+It's that simple. 👏 And when it comes time to scale the application, all you have to do is:
+
+```
+
+```
+
+I know right?
+
+## Contributing
+
+You don't.
