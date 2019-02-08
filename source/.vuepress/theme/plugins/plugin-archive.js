@@ -1,6 +1,6 @@
 module.exports = (options, ctx) => {
   const {
-    archiveURL = '/posts/',
+    archiveURL = '/post/',
   } = options
 
   return {
