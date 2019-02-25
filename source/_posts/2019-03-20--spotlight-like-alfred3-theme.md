@@ -36,7 +36,7 @@ date: 2019-03-20 02:18:00
 
 [Spotlight.alfredappearance - GitHub 文件地址](https://github.com/zthxxx/init-macOS-dev/blob/master/app-preferences/Spotlight.alfredappearance)
 
-[GitHub raw 直接下载地址](https://github.com/zthxxx/init-macOS-dev/raw/master/app-preferences/Spotlight.alfredappearance)
+<a href="https://gitcdn.xyz/repo/zthxxx/init-macOS-dev/master/app-preferences/Spotlight.alfredappearance" target="_blank" download>GitHub CDN 直接下载地址</a>
 
 下载文件后**直接打开**，Powerpack 过的 Alfred3 能自动加载样式，
 
