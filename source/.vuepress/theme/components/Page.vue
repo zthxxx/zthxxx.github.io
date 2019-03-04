@@ -1,44 +1,43 @@
-
 <template>
   <ParentPage :sidebarItems="sidebarItems">
-    <slot name="top" slot="top">
-      <div class="content head" slot="top">
+    <div class="content head" slot="top">
+      <slot name="top">
         <h1 v-if="$page.frontmatter.title" :id="$page.frontmatter.title">
           {{ $page.frontmatter.title }}
         </h1>
         <TagLinks class="tag-links"/>
-      </div>
-    </slot>
+      </slot>
+    </div>
 
     <slot name="bottom" slot="bottom"/>
   </ParentPage>
 </template>
 
 <script>
-import ParentPage from '@parent-theme/components/Page.vue'
-import TagLinks from '@theme/components/TagLinks.vue'
+  import ParentPage from '@parent-theme/components/Page.vue'
+  import TagLinks from '@theme/components/TagLinks.vue'
 
-export default {
-  props: {
-    sidebarItems: {
-      type: Array,
-      default: () => [],
-    }
-  },
+  export default {
+    name: 'page',
+    props: {
+      sidebarItems: {
+        type: Array,
+        default: () => [],
+      },
+    },
 
-  components: {
-    ParentPage,
-    TagLinks,
-  },
-}
+    components: {
+      ParentPage,
+      TagLinks,
+    },
+  }
 </script>
 
 <style lang="stylus">
-  .content:not(.custom).head
-    margin-bottom: -1rem;
-    padding-bottom: 0
+  @require '~@parent-theme/styles/wrapper.styl'
 
-  .tag-links
-    position: relative
-    margin: 20px auto 0
+  .content:not(.custom).head
+    @extend $wrapper
+    margin: 2rem auto -1.5rem
+    padding-bottom: 0;
 </style>

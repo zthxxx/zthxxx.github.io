@@ -30,8 +30,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
-    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.47",
-    "@vuepress/theme-default": "^1.0.0-alpha.47",
+    "@vuepress/plugin-google-analytics": "next",
     "commitizen": "^3.0.7",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.16.0",
@@ -44,7 +43,7 @@
     "markdown-it-ins": "^2.0.0",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
-    "vuepress": "^1.0.0-alpha.47"
+    "vuepress": "next"
   },
   "lint-staged": {
     "**/*.{js,vue}": "npm run lint-staged:js"
