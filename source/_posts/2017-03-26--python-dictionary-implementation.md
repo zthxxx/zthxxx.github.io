@@ -174,4 +174,4 @@ values = ['user01', 'user01@example.com']
 
 ## 我的想法
 
-CPython 中字典的实现过程是非常简洁明了和易懂的。它的代码优美而高效，所有的参数选择都是经过实践的，例如，其中 `free_dicts` 和 `ma_smalltable` 参数的大小。我爱它们。
+CPython 中字典的实现过程是非常简洁明了和易懂的。它的代码优美而高效，所有的参数选择都是经过实践的，例如，其中 `free_dicts` 和 `ma_smalltable` 参数的大小。I love python.
