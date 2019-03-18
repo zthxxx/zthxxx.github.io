@@ -18,6 +18,9 @@ module.exports = themeConfig => ({
     ['@vuepress/medium-zoom', true],
     ['sitemap', {
       hostname: themeConfig.hostname || '/',
+      exclude: [
+        '/404.html',
+      ],
     }],
     ['container', {
       type: 'vue',

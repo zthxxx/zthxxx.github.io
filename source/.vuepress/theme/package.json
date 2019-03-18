@@ -20,11 +20,11 @@
   "homepage": "https://blog.zthxxx.me",
   "dependencies": {
     "@commitlint/config-conventional": "^7.5.0",
-    "@vuepress/plugin-back-to-top": "next",
-    "@vuepress/plugin-blog": "next",
-    "@vuepress/plugin-medium-zoom": "next",
+    "@vuepress/plugin-back-to-top": "latest",
+    "@vuepress/plugin-blog": "latest",
+    "@vuepress/plugin-medium-zoom": "latest",
     "@vuepress/plugin-pagination": "next",
-    "@vuepress/theme-default": "next",
+    "@vuepress/theme-default": "latest",
     "vuepress-plugin-sitemap": "^2.1.2"
   }
 }
