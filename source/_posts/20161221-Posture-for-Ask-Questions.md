@@ -74,7 +74,7 @@ categories:
 
 #### **大部分很简单的小问题都是可以直接搜索到解决办法的，这样的问题就不要再麻烦别人了！**
 
-![你不会自己 Google 吗？](./2016-12-21--Posture-for-Ask-Questions/cant-you-google-for-it-Hestia.png)
+![你不会自己 Google 吗？](./20161221-Posture-for-Ask-Questions/cant-you-google-for-it-Hestia.png)
 
 这里就不讨论“为何要感谢别人的帮助”这种废话了（虽然确实有人不懂这个），总之，这里的结论是：
 

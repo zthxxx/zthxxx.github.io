@@ -66,29 +66,29 @@ Travis-CI 分收费版和[免费版](https://travis-ci.org/)，免费版有一�
 
 打开 [Travis-CI 官网](https://travis-ci.org/)，使用 GitHub 账号就可以登陆。
 
-![Travis-CI 官网登录](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/Travis-CI-official-login.png)
+![Travis-CI 官网登录](./20161226-Build-Hexo-Blog-by-Travis-CI/Travis-CI-official-login.png)
 
 登录后左边会显示设置了构建的仓库，右边显示正在构建的项目。初次使用 Travis-CI 的话，这两块应该都是空的。
 
-![Travis-CI 登录后界面](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/Travis-CI-login-screenshot.png)
+![Travis-CI 登录后界面](./20161226-Build-Hexo-Blog-by-Travis-CI/Travis-CI-login-screenshot.png)
 
 现在我们需要添加一个仓库到构建中，先点击左边仓库标题 `My Repositories` 旁边的加号，进入仓库选择界面。
 
-![点击添加仓库](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/click-to-add-repo.png)
+![点击添加仓库](./20161226-Build-Hexo-Blog-by-Travis-CI/click-to-add-repo.png)
 
-![添加待构建仓库界面](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/add-repo-to-build-screenshot.png)
+![添加待构建仓库界面](./20161226-Build-Hexo-Blog-by-Travis-CI/add-repo-to-build-screenshot.png)
 
 点击右上方的 `Sync account` 按钮可以手动同步一下所有仓库状态到 Travis-CI 中。下面的每个仓库名前面有个打勾打叉的滑动开关，打开开关表示把对应的项目添加到 Travis-CI 的构建列表中开启构建。
 
-![同步按钮与构建开关](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/sycn-button-and-build-switch.png)
+![同步按钮与构建开关](./20161226-Build-Hexo-Blog-by-Travis-CI/sycn-button-and-build-switch.png)
 
-![开启需构建的项目](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/enable-project-building.png)
+![开启需构建的项目](./20161226-Build-Hexo-Blog-by-Travis-CI/enable-project-building.png)
 
 开启构建之后就可以通过左侧的项目栏选择具体的项目查看了。Travis-CI 是通过 push 来触发构建的，所以在构建我们的博客之前，先在 Travis-CI 中对博客所在的项目进行一些设置。在查看项目界面，点击右侧 `More options` -> `Settings` 选项中，开启 `Build only if .travis.yml is present` 以及 `Build pushes` 选项；这表示只有 `.travis.yml` 文件存在的 push 推送才会被构建。
 
-![查看项目并进入设置](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/view-project-and-setting.png)
+![查看项目并进入设置](./20161226-Build-Hexo-Blog-by-Travis-CI/view-project-and-setting.png)
 
-![设置构建 push](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/building-push-setting.png)
+![设置构建 push](./20161226-Build-Hexo-Blog-by-Travis-CI/building-push-setting.png)
 
 在 Travis-CI 开始构建时，还需要获取一些信息，比如需要怎么的环境、通过什么过程来构建等等，于是， Travis-CI 允许用户在项目根目录放置 `.travis.yml` 文件，通过 YAML 语言来描述环境以及构建过程等。
 
@@ -156,15 +156,15 @@ GitHub 允许你通过 [设置页面](https://github.com/settings/tokens) 添加
 
 现在我们来添加一个 token，先进入自己 GitHub 的 [设置页面](https://github.com/settings/tokens)，点击 `Personal access tokens` -> `Generate new token` 按钮，新建一个 token。
 
-![Personal access tokens 界面](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/PersonalAccessTokens-screenshot.png)
+![Personal access tokens 界面](./20161226-Build-Hexo-Blog-by-Travis-CI/PersonalAccessTokens-screenshot.png)
 
 在权限设置中，我们只需要操作仓库，因此只需要打开仓库相关的权限就够了，权限开放应该满足最小原则，能少就少。设置好权限后点击生成按钮就会生成完毕并跳到 tokens 列表。
 
-![Access Token 权限设置](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/AccessToken-setting.png)
+![Access Token 权限设置](./20161226-Build-Hexo-Blog-by-Travis-CI/AccessToken-setting.png)
 
 现在就需要把刚生成的 Access Token 的值复制下来，**注意，这个页面一旦刷新过了， token 就不能再显示了，没记住的只能重新生成一个了。**
 
-![复制 Token](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/copy-Token.png)
+![复制 Token](./20161226-Build-Hexo-Blog-by-Travis-CI/copy-Token.png)
 
 嗯，现在 Access Token 也有了，能操作仓库了，那么，这个 token 应该放到哪里呢？
 
@@ -174,7 +174,7 @@ GitHub 允许你通过 [设置页面](https://github.com/settings/tokens) 添加
 
 回到我们 Travis-CI 的 [博客项目设置页面](https://travis-ci.org/zthxxx/zthxxx.github.io/settings) 中，添加一个名为 `GIT_REPO_TOKEN` 的环境变量储存我们的 token，并记得要设置 ` Display value in build log` 为 OFF，关闭变量的显示，否则等于公开了 token。
 
-![添加 Token 环境变量](./2016-12-26--Build-Hexo-Blog-by-Travis-CI/add-Token-to-env.png)
+![添加 Token 环境变量](./20161226-Build-Hexo-Blog-by-Travis-CI/add-Token-to-env.png)
 
 现在在我们的执行脚本中就能使用 `$GIT_REPO_TOKEN` 访问 token 的环境变量了~
 

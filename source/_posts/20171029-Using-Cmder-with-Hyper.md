@@ -9,7 +9,7 @@ update: 2017-10-29 17:30:27
 ---
 
 
-![banner](./2017-10-29--Using-Cmder-with-Hyper/hyper-pokemon-pikachu.png)
+![banner](./20171029-Using-Cmder-with-Hyper/hyper-pokemon-pikachu.png)
 
 
 > - 原文地址：[Using Cmder with Hyper](http://blog.bsinky.com/programming/tools/2017/06/11/using-cmder-with-hyper.html)
@@ -23,11 +23,11 @@ update: 2017-10-29 17:30:27
 
 <!--more-->
 
-![cmder-official](./2017-10-29--Using-Cmder-with-Hyper/cmder-official.png)
+![cmder-official](./20171029-Using-Cmder-with-Hyper/cmder-official.png)
 
 这在 Windows 上更是如此， 原本终端被限制只能使用 `cmd` 或 `powershell`，虽然后者毫无疑问要更具现代性和可用性，但因为一些原因，我从未发现我自己在 Windows 上使用过 `powershell`，而是只会在当我觉得需要终端时开启 `cmd`。
 
-![hyper-cmder](./2017-10-29--Using-Cmder-with-Hyper/hyper-cmder.png)
+![hyper-cmder](./20171029-Using-Cmder-with-Hyper/hyper-cmder.png)
 
 这让我接触到了 [Cmder](http://cmder.net/)。Cmder 自我描述为一个 「为 Windows 打造的便携式模拟终端」，这貌似与 Hyper 一脉相承。Cmder 有一些挺不错的功能，比如 <kbd>Tab</kbd> 自动补全命令，就我所知[^1]，Windows `cmd` 在很长一段时间里都不支持。它还有许多特性，包括标签页、捆绑了一些好用的功能如 `ls` 和 `grep`，等等。我极度推荐 Cmder 给每个那些频繁在 Windows 下使用终端的人，你不会后悔的！
 

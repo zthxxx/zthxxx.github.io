@@ -14,23 +14,23 @@ date: 2019-03-20 02:18:00
 
 预览一下咯：
 
-![alfred-default](./2019-03-20--spotlight-like-alfred3-theme/alfred-default.png)
+![alfred-default](./20190320-spotlight-like-alfred3-theme/alfred-default.png)
 
-![alfred-active](./2019-03-20--spotlight-like-alfred3-theme/alfred-active.png)
+![alfred-active](./20190320-spotlight-like-alfred3-theme/alfred-active.png)
 
 和 [**有道翻译插件**](https://github.com/wensonsmith/YoudaoTranslate) 的样式也很搭
 
-![youdao-default](./2019-03-20--spotlight-like-alfred3-theme/youdao-default.png)
+![youdao-default](./20190320-spotlight-like-alfred3-theme/youdao-default.png)
 
-![youdao-active](./2019-03-20--spotlight-like-alfred3-theme/youdao-active.png)
+![youdao-active](./20190320-spotlight-like-alfred3-theme/youdao-active.png)
 
 对比下原版 **Spotlight**:
 
 (**看起来小一点是截图比例问题**)
 
-![spotlight](./2019-03-20--spotlight-like-alfred3-theme/spotlight.png)
+![spotlight](./20190320-spotlight-like-alfred3-theme/spotlight.png)
 
-![spotlight-active](./2019-03-20--spotlight-like-alfred3-theme/spotlight-active.png)
+![spotlight-active](./20190320-spotlight-like-alfred3-theme/spotlight-active.png)
 
 那么，在哪里能下载到呢？
 

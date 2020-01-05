@@ -9,7 +9,7 @@ categories:
 
 一图总结：
 
-![思维整理](./2016-10-20--WNCG-Software-Group-First-Training-Syllabus/WNCG-First-Training-Syllabus-Xmind.png)
+![思维整理](./20161020-WNCG-Software-Group-First-Training-Syllabus/WNCG-First-Training-Syllabus-Xmind.png)
 
 1.  **培训与总结安排**
      每周有总结，总结上周内容，答疑，安排下周学什么

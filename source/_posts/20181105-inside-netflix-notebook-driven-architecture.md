@@ -26,7 +26,7 @@ Jupyter Notebook 是数据科学家库中最强大的工具之一。通常，诸
 
 为了扩大 Jupyter 作为数据科学分析的使用，Netflix 工程团队需要解决几个主要挑战：
 
-![notebooks-at-scale](./2018-11-05--inside-netflixs-notebook-driven-architecture/notebooks-at-scale.png)
+![notebooks-at-scale](./20181105-inside-netflixs-notebook-driven-architecture/notebooks-at-scale.png)
 
 - **代码-输出不匹配**：Notebooks 经常被修改，很多时候，你在环境中看到的输出与当前代码不对应。
 
@@ -57,7 +57,7 @@ Netflix 决定采用 [Papermill](https://github.com/nteract/papermill) 来实现
 
 从高层次来看，Netflix 笔记本架构开始看起来如下图所示：
 
-![img](./2018-11-05--inside-netflixs-notebook-driven-architecture/notebook-architecture.png)
+![img](./20181105-inside-netflixs-notebook-driven-architecture/notebook-architecture.png)
 
 
 ## 调度
@@ -70,14 +70,14 @@ Netflix 团队决定将他们的 Notebooks 与他们自己的调度框架 [Meson
 
 这一过程的架构相对简单，如下图所示：
 
-![notebook-and-docker](./2018-11-05--inside-netflixs-notebook-driven-architecture/notebook-and-docker.png)
+![notebook-and-docker](./20181105-inside-netflixs-notebook-driven-architecture/notebook-and-docker.png)
 
 
 ## 集成测试
 
 为了在 Noteboo k架构中自动化集成测试，Netflix 采用了 [Papermill](https://github.com/nteract/papermill) 的多输出功能。本质上，集成测试是另一个Notebook，输出成为目标 Notebook 的输入。
 
-![notebook-to-testing](./2018-11-05--inside-netflixs-notebook-driven-architecture/notebook-to-testing.png)
+![notebook-to-testing](./20181105-inside-netflixs-notebook-driven-architecture/notebook-to-testing.png)
 
 Netflix 的架构是我见过的大规模使用 Jupyter Notebook 最先进的基础设施之一。在这种架构中实现的大多数模式都基于开源工具，并且可以被刚开始进行数据科学之旅的团队轻松使用。
 

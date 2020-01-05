@@ -4,10 +4,9 @@
   "private": true,
   "description": "blog by zthxxx",
   "scripts": {
-    "dev": "vuepress dev source --temp .temp",
-    "build": "vuepress build source --temp .temp --dest dist",
+    "dev": "npx --node-arg '--require ./inject.js' vuepress dev source --open --temp .temp",
+    "build": "npx --node-arg '--require ./inject.js' vuepress build source --temp .temp --dest dist",
     "deploy": "gh-pages -d dist -b master",
-    "view-info": "vuepress view-info source --temp .temp",
     "lint": "eslint --ext .js,.vue source",
     "lint:fix": "eslint --fix --ext .js,.vue source",
     "lint-staged": "lint-staged",

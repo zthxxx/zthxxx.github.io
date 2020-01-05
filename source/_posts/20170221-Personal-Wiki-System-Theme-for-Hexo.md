@@ -11,7 +11,7 @@ categories:
   - Hexo
 ---
 
-![banner](./2017-02-21--Personal-Wiki-System-Theme-for-Hexo/wiki-banner.jpg)
+![banner](./20170221-Personal-Wiki-System-Theme-for-Hexo/wiki-banner.jpg)
 
 
 以下多图预警！
@@ -57,7 +57,7 @@ TL;DR
 
 再放一个预览的截图：
 
-![Wikitten preview](./2017-02-21--Personal-Wiki-System-Theme-for-Hexo/preview.jpg)
+![Wikitten preview](./20170221-Personal-Wiki-System-Theme-for-Hexo/preview.jpg)
 
 嘛，样式是跟 [victorstanciu](https://github.com/victorstanciu) 的 [Wikitten](https://wikitten.vizuina.com/) 一样的（人家有 MIT LICENSE 的，并且我提到时也都有注明出处），之所以选择 Wikitten，是因为我觉得这个 Wiki 系统最接近我自己对个人 Wiki 的需求，并且样式也很简洁。不过相比起来，代码就完全不一样了；人家是 PHP，我这是 Hexo 的主题，不需要后台，可以直接挂在 Github Pages 上，省去了服务器；原本只支持搜索标题的，我也给改到支持全文搜索了。
 
@@ -106,11 +106,11 @@ TL;DR
 - ***不可全文搜索，只能搜索标题***
 - ***需要后台加数据库，部署繁琐***
 
-![Wikitten Preview](./2017-02-21--Personal-Wiki-System-Theme-for-Hexo/WikittenPreview.jpg)
+![Wikitten Preview](./20170221-Personal-Wiki-System-Theme-for-Hexo/WikittenPreview.jpg)
 
 
 
-### 01 - **[TiddlyWiki](http://tiddlywiki.com/)** 
+### 01 - **[TiddlyWiki](http://tiddlywiki.com/)**
 
 - 双栏
 - 侧边可展开显示所有条目标题
@@ -119,7 +119,7 @@ TL;DR
 - ***不支持 Markdown，而是 WikiText***
 - ***单文件系统***
 
-![TiddlyWiki Preview](./2017-02-21--Personal-Wiki-System-Theme-for-Hexo/TiddlyWikiPreview.jpg)
+![TiddlyWiki Preview](./20170221-Personal-Wiki-System-Theme-for-Hexo/TiddlyWikiPreview.jpg)
 
 ### 02 - **[MediaWiki](https://www.mediawiki.org/wiki/MediaWiki)**
 
@@ -133,7 +133,7 @@ TL;DR
 - ***界面复杂、臃肿***
 - ***需要后台与数据库，部署繁琐***
 
-![MediaWiki Preview](./2017-02-21--Personal-Wiki-System-Theme-for-Hexo/MediaWikiPreview.jpg)
+![MediaWiki Preview](./20170221-Personal-Wiki-System-Theme-for-Hexo/MediaWikiPreview.jpg)
 
 
 
@@ -148,7 +148,7 @@ TL;DR
 - ***搜索也只可以在首页进行搜索***
 - ***配色不是很让我喜欢***
 
-![Wixo Preview](./2017-02-21--Personal-Wiki-System-Theme-for-Hexo/WixoPreview.jpg)
+![Wixo Preview](./20170221-Personal-Wiki-System-Theme-for-Hexo/WixoPreview.jpg)
 
 
 
@@ -163,7 +163,7 @@ TL;DR
 - ***不可展开显示所有条目标题***
 - ***纯静态，通过 AJAX 显示不同页面***
 
-![MDwiki Preview](./2017-02-21--Personal-Wiki-System-Theme-for-Hexo/MDWikiPreview.jpg)
+![MDwiki Preview](./20170221-Personal-Wiki-System-Theme-for-Hexo/MDWikiPreview.jpg)
 
 
 
@@ -173,7 +173,7 @@ TL;DR
 - ***不支持 Markdown 语法（但有插件支持）***
 - ***不习惯 Vim 的人很难适应***
 
-![VimWiki Preview](./2017-02-21--Personal-Wiki-System-Theme-for-Hexo/VimWikiPreview.jpg)
+![VimWiki Preview](./20170221-Personal-Wiki-System-Theme-for-Hexo/VimWikiPreview.jpg)
 
 
 
@@ -186,7 +186,7 @@ TL;DR
 - ***配置项目多，大部分教程都说到其配置复杂***
 - ***编辑器体验较差***
 
-![DokuWiki Preview](./2017-02-21--Personal-Wiki-System-Theme-for-Hexo/DokuWikiPreview.jpg)
+![DokuWiki Preview](./20170221-Personal-Wiki-System-Theme-for-Hexo/DokuWikiPreview.jpg)
 
 
 
@@ -199,7 +199,7 @@ TL;DR
 - ***不支持搜索***
 - ***侧边不可展开显示所有条目标题***
 
-![Simiki Preview](./2017-02-21--Personal-Wiki-System-Theme-for-Hexo/SimikiPreview.jpg)
+![Simiki Preview](./20170221-Personal-Wiki-System-Theme-for-Hexo/SimikiPreview.jpg)
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Hexo 增加可嵌入页面作博文的 layout
 date: 2016-11-05 01:18:05
-banner: 
+banner:
 tags: [Hexo, 博客]
 categories:
   - 编程开发
@@ -43,8 +43,8 @@ skip_render:
 title: {{ title }}
 date: {{ date }}
 layout: embed
-description: 
-iframe_url: 
+description:
+iframe_url:
 ---
 ```
 
@@ -71,9 +71,9 @@ hexo s -g
 
 下面给两个我刚刚操作的截图示例（点击可查看大图）：
 
-![测试首页截图](./2016-11-05--Hexo-Add-Layout-for-Embed-Page/blog-index-with-embed-test-screenshot.png)
+![测试首页截图](./20161105-Hexo-Add-Layout-for-Embed-Page/blog-index-with-embed-test-screenshot.png)
 
-![测试博文嵌入截图](./2016-11-05--Hexo-Add-Layout-for-Embed-Page/blog-embed-page-test-screenshot.png)
+![测试博文嵌入截图](./20161105-Hexo-Add-Layout-for-Embed-Page/blog-embed-page-test-screenshot.png)
 
 
 
