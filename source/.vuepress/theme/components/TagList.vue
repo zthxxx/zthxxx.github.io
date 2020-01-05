@@ -22,3 +22,9 @@
     </span>
   </div>
 </template>
+
+<style lang="stylus" scoped>
+  .content > span > ul {
+    font-size: 1.2rem;
+  }
+</style>

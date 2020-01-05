@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <TagList slot="page-top" />
+    <TagList class="tag-list" slot="page-top" />
   </Layout>
 </template>
 
@@ -17,3 +17,24 @@ export default {
   }
 }
 </script>
+
+
+<style lang="stylus">
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > h1 {
+    width: 100%;
+  }
+
+  & > span {
+    width: 50%;
+    min-width: 360px;
+    padding-right: .8rem;
+    box-sizing: border-box;
+  }
+}
+
+</style>
