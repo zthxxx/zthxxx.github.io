@@ -2,8 +2,8 @@ module.exports = {
   title: '猫尾 と 香辛料 🐾',
   description: '樱桃炸弹・蓝莓特攻',
   head: [
-    ['link', { rel: 'icon', href: `/logo.png` }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['link', { rel: 'icon', href: `/favicon.ico` }],
+    ['meta', { name: 'theme-color', content: '#ff5891' }],
   ],
   theme: 'cherry',
   themeConfig: {

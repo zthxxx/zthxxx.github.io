@@ -8,7 +8,8 @@ branches:
   - writing
 
 install:
-  - npm i
+  - npm ci
+  - npm i --no-save source/.vuepress/theme
 
 script:
   - npm run build

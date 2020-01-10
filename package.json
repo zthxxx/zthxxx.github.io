@@ -4,8 +4,8 @@
   "private": true,
   "description": "blog by zthxxx",
   "scripts": {
-    "dev": "npx --node-arg '--require ./inject.js' vuepress dev source --open --temp .temp",
-    "build": "npx --node-arg '--require ./inject.js' vuepress build source --temp .temp --dest dist",
+    "dev": "npx --node-arg '--require ./inject.js' vuepress dev source --open",
+    "build": "npx --node-arg '--require ./inject.js' vuepress build source --dest dist",
     "deploy": "gh-pages -d dist -b master",
     "lint": "eslint --ext .js,.vue source",
     "lint:fix": "eslint --fix --ext .js,.vue source",
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
-    "@vuepress/plugin-google-analytics": "latest",
+    "@vuepress/plugin-google-analytics": "^1.4.0",
     "commitizen": "^3.0.7",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.16.0",
@@ -42,8 +42,9 @@
     "markdown-it-ins": "^2.0.0",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
-    "vuepress": "latest",
-    "vuepress-theme-cherry": "file:source/.vuepress/theme"
+    "typescript": "^3.8.3",
+    "vuepress": "^1.4.0",
+    "vuepress-types": "^0.9.0"
   },
   "lint-staged": {
     "**/*.{js,vue}": "npm run lint-staged:js"
