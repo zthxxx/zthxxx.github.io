@@ -1,12 +1,14 @@
 <template>
   <Layout>
     <TagList class="tag-list" slot="page-top" />
+    <div slot="page-bottom" />
   </Layout>
 </template>
 
 <script>
 import Layout from '@theme/layouts/Layout.vue'
 import TagList from '@theme/components/TagList.vue'
+
 export default {
   components: {
     Layout,

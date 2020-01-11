@@ -9,11 +9,16 @@
       </slot>
     </div>
 
-    <slot name="bottom" slot="bottom"/>
+    <slot name="bottom" slot="bottom">
+      <footer class="content comment">
+        <Comment />
+      </footer>
+    </slot>
   </ParentPage>
 </template>
 
 <script>
+  import { Comment } from '@vuepress/plugin-blog/lib/client/components'
   import ParentPage from '@parent-theme/components/Page.vue'
   import TagLinks from '@theme/components/TagLinks.vue'
 
@@ -29,6 +34,7 @@
     components: {
       ParentPage,
       TagLinks,
+      Comment,
     },
   }
 </script>
@@ -39,5 +45,9 @@
   .content:not(.custom).head
     @extend $wrapper
     margin: 2rem auto -1.5rem
-    padding-bottom: 0;
+    padding-bottom: 0
+
+  .content:not(.custom).comment
+    @extend $wrapper
+    margin: 2rem auto
 </style>

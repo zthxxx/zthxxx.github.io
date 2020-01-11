@@ -17,12 +17,26 @@ export default (themeConfig: ThemeConfig, ctx: Context): ThemeOptionAPI => ({
     ['@vuepress/blog', {
       directories: [
         {
+          id: 'home',
+          dirname: '_posts',
+          path: '/',
+          layout: 'Home',
+          itemLayout: 'Post',
+          itemPermalink: '/post/:slug',
+          pagination: {
+            lengthPerPage: 5,
+          },
+        },
+        {
           id: 'post',
           dirname: '_posts',
           path: '/post/',
           layout: 'Posts',
           itemLayout: 'Post',
           itemPermalink: '/post/:slug',
+          pagination: {
+            lengthPerPage: 5,
+          },
         },
       ],
       frontmatters: [
@@ -33,12 +47,15 @@ export default (themeConfig: ThemeConfig, ctx: Context): ThemeOptionAPI => ({
           layout: 'Tags',
           frontmatter: { title: 'Tag' },
         },
-      ]
+      ],
+      globalPagination: {
+        lengthPerPage: 5,
+      },
+      comment: themeConfig.comment,
     }],
     ['@vuepress/last-updated', {
       transformer: timestamp => new Date(timestamp).toISOString().replace('T', ' ').split(/:\d{2}\./)[0]
     }],
-    '@vuepress/pagination',
     ['@vuepress/search', {
       searchMaxSuggestions: 10,
     }],
@@ -57,4 +74,25 @@ export default (themeConfig: ThemeConfig, ctx: Context): ThemeOptionAPI => ({
       after: '</code></pre>',
     }],
   ],
+  /**
+   * Generate summary.
+   */
+  extendPageData(pageCtx) {
+    const strippedContent = pageCtx._strippedContent
+    if (!strippedContent) {
+      return
+    }
+    const excerpt =
+        strippedContent
+          .trim()
+          .slice(0, 200)
+       + ' ...'
+
+
+    const { html } = ctx.markdown.render(excerpt, {
+      frontmatter: pageCtx.frontmatter,
+      relativePath: pageCtx.relativePath
+    })
+    pageCtx.excerpt = html
+  },
 })

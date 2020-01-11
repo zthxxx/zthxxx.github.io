@@ -10,7 +10,7 @@ module.exports = {
     hostname: 'https://blog.zthxxx.me',
     docsRepo: 'zthxxx/zthxxx.github.io',
     docsDir: 'source',
-    docsBranch: 'master',
+    docsBranch: 'writing',
     editLinks: true,
     editLinkText: 'Edit on GitHub',
     lastUpdated: 'Last Updated',
@@ -34,6 +34,10 @@ module.exports = {
       },
     ],
     sidebar: false,
+    comment: {
+      service: 'disqus',
+      shortname: 'zthxxx',
+    },
   },
   markdown: {
     lineNumbers: true,
